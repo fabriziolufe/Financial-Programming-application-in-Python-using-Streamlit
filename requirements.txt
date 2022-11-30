@@ -1,6 +1,6 @@
 pandas
 matplotlib
-PIL
+Image
 datetime
 yfinance
 streamlit
