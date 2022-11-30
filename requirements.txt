@@ -9,6 +9,5 @@ pandas_datareader
 numpy
 tweepy
 textblob
-time
 plotly
 st_aggrid
