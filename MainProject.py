@@ -629,7 +629,7 @@ def run():
     
     st.sidebar.caption("In partnership with: ")
     
-    image1 = Image.open('https://github.com/fabriziolufe/financial_programming_streamlit/blob/main/Yahoo.png')
+    image1 = Image.open('Yahoo.png')
     st.sidebar.image(image1)
     image2 = Image.open('https://github.com/fabriziolufe/financial_programming_streamlit/blob/main/ieseg.png')
     st.sidebar.image(image2)
