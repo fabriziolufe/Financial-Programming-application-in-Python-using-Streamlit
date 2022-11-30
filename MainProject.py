@@ -571,9 +571,9 @@ def tab5():
                 result= 'Positivity of '+select_newstype+': '+str(round(np.mean(list_sentiment)*100,2))+'%'
                 st.header(result)
                 if np.mean(list_sentiment)*100> 0:
-                    st.image(Image.open('./img/positive.jpg'))
+                    st.image(Image.open('https://github.com/fabriziolufe/financial_programming_streamlit/blob/main/positive.jpg'))
                 else: 
-                    st.image(Image.open('./img/negative.jpg'))
+                    st.image(Image.open('https://github.com/fabriziolufe/financial_programming_streamlit/blob/main/negative.jpg'))
     
     
 #==============================================================================
@@ -629,9 +629,9 @@ def run():
     
     st.sidebar.caption("In partnership with: ")
     
-    image1 = Image.open('./img/Yahoo.png')
+    image1 = Image.open('https://github.com/fabriziolufe/financial_programming_streamlit/blob/main/Yahoo.png')
     st.sidebar.image(image1)
-    image2 = Image.open('./img/ieseg.png')
+    image2 = Image.open('https://github.com/fabriziolufe/financial_programming_streamlit/blob/main/ieseg.png')
     st.sidebar.image(image2)
     
     # Show the selected tab when clicked on it.
