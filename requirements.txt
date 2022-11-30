@@ -1,14 +1,11 @@
 pandas
 matplotlib
-Image
-datetime
+Pillow
 yfinance
 streamlit
 streamlit_option_menu
+streamlit-aggrid
 pandas_datareader
-numpy
 tweepy
 textblob
-time
 plotly
-st_aggrid
